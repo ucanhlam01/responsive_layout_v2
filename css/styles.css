@@ -1,0 +1,119 @@
+/* Global Layout Style */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #fafafa;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+header,
+.project-list,
+footer {
+	max-width: 480px;
+	margin: auto;
+}
+
+/* Text Style */
+
+p {
+	color: #444;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.section-title {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 40px 0;
+	margin: 0;
+}
+
+/* Links Style */
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	color: #aaa;
+}
+
+/* Section Style - Header */
+
+.full-container{
+	margin: auto;
+}
+
+header {
+	margin-bottom: 60px;
+}
+
+.main-nav h1 {
+	padding: 1em 0;
+}
+
+.main-nav .nav-menu {
+	padding: 0px;
+	margin-bottom: 60px;
+}
+
+.main-nav .nav-menu li{
+	background-color: #fff;
+	padding: 10px 0;
+	margin: 8px auto;
+	font-weight: bold;
+	max-width: 100%;
+	font-size: 20px;
+}
+
+.profile-img-container {
+	margin: 0 auto 40px;
+	max-width: 300px;
+}
+
+.intro {
+	font-weight: lighter;
+
+}
+
+/* Section Style - Project list*/
+
+.projects {
+	background: #fff;
+	padding: 0 10px;
+}
+
+.projects .box {
+	float: left;
+	width: 100%;
+	
+}
+
+.projects .project-title {
+	font-weight: normal;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+/* Links Style */
